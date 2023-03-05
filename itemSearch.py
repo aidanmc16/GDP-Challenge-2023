@@ -12,7 +12,7 @@ def main():
     itemCounts={item: 0 for item in cyberItems}
     itemCounts=itemSearch(cyberItems,itemCounts,".\data\Secure-file.txt")
     itemCounts=itemSearch(cyberItems, itemCounts, ".\data\DDOS-file.txt") 
-    #itemCounts=itemSearch(cyberItems, itemCounts, ".\data\online-data.json")
+    itemCounts=itemSearch(cyberItems, itemCounts, ".\data\online-data.json")
     itemCounts=itemSearch(cyberItems, itemCounts, ".\data\cyber-security.xml")
     print("Virusues:")
     print(itemCounts["Virus"])

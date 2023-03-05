@@ -22,7 +22,7 @@ def main():
     print(itemCounts["DDOS"])
     print("Patches: ")
     print(itemCounts["Patch"])
-    print("Vulnaribilities: ")
+    print("Vulnerabilities: ")
     print(itemCounts["Vulnerabilit"])
     print("Threats: ")
     print(itemCounts["Threat"])

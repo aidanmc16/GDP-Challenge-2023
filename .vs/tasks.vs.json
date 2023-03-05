@@ -1,0 +1,10 @@
+{
+  "version": "0.2.1",
+  "tasks": [
+    {
+      "taskLabel": "task-Secure-file",
+      "appliesTo": "data/Secure-file.txt",
+      "type": "launch"
+    }
+  ]
+}
